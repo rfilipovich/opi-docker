@@ -1,0 +1,3 @@
+output/*
+dockerdata/.ssh
+dockerdata/.gitconfig
