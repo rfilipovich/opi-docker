@@ -6,11 +6,11 @@ host_name := $(shell hostname)
 host_home := $(HOME)
 
 IMAGE := dockerdata
-IMAGE_ID := opi_pressure_sniffer_$(shell whoami)
+IMAGE_ID := pico_pressure_sniffer_$(shell whoami)
 IMAGE_TAG := v1
 SOURCES := $(mkfile_dir)
 
-WORKDIR:=/home/docker/opi
+WORKDIR:=/home/docker/pico
 
 DOCKER := docker
 DOCKER += run --rm -it
